@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    display: inline-block;
+}
+
+.velha {
+    background-color: coral;
+    width: 120px;
+    height: 120px;
+    float: left;
+    border: 1px black solid;
+}
+
+#cabecalho {
+    width: 100%;
+}
+
+#logo img {
+    width: 5%;
+    float: left;
+}
+
+#menu {
+    width: 70%;
+    float: right;
+}
+
+#menu ul {
+    width: 100%;
+}
+
+#menu ul li {
+    font-size: 3em;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+.texto {
+    font-family: "roboto", sans-serif;
+    margin-right: 5pt;
+    margin: 3%;
+    text-align: justify;
+}
+
+.bem-vindo {
+    text-align: center;
+}
+
+.bem-vindo img {
+    width: 500px;
+}
+
+.jogo-velha {
+    text-align: center;
+}
